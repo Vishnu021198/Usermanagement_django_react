@@ -22,7 +22,7 @@ function UserHome() {
       Enjoy the experience by Logging In.
     </p>
     {authentication_user.isAuthenticated?<>
-      <Link type="button" className="btn btn-primary" to='/profile'>Go To Profile  ! </Link></>
+      <Link type="button" className="btn btn-primary" to='/profile'>Go To Profile ! </Link></>
       :<><Link type="button" className="btn btn-primary" to='/login'>Login</Link></>}
     
    
